@@ -19,8 +19,20 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="number|numberSigned"
             android:textSize="30sp" />
 
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/plus"
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/number2"
@@ -28,6 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="number|numberSigned"
             android:textSize="30sp" />
 
     </LinearLayout>
